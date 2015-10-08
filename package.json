@@ -26,11 +26,12 @@
   },
   "homepage": "https://github.com/easybird/playground-js-micro-library#readme",
   "dependencies": {
+    "lodash": "3.10.1",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
     "chai": "3.3.0",
-    "commitizen": "1.0.5",
+    "commitizen": "1.0.4",
     "cz-conventional-changelog": "1.0.1",
     "mocha": "2.3.3",
     "semantic-release": "^4.3.5"

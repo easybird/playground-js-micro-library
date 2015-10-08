@@ -29,4 +29,13 @@ describe('football-player-names', function() {
       });
     });
   });
+  describe('contains', function () {
+    it('should return true when the array contains the search term', function () {
+      var playerFromList = footballPlayerNames.all[0];
+      expect(footballPlayerNames.contains(playerFromList)).to.be.true;
+    });
+    it('should return false when the array doesn\'t contain the search term', function () {
+      expect(footballPlayerNames.contains('foobar')).to.be.false;
+    });
+  });
 });
