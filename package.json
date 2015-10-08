@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/easybird/tryouts.git"
+    "url": "https://github.com/easybird/playground-js-micro-library.git"
   },
   "keywords": [
     "random",
@@ -22,16 +22,16 @@
   "author": "easybird <easybird85@gmail.com> (http://easybird.be/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/easybird/js-library-tryout/issues"
+    "url": "https://github.com/easybird/playground-js-micro-library/issues"
   },
-  "homepage": "https://github.com/easybird/js-library-tryout#readme",
+  "homepage": "https://github.com/easybird/playground-js-micro-library#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
     "chai": "3.3.0",
     "commitizen": "1.0.5",
-    "cz-conventional-changelog": "1.1.0",
+    "cz-conventional-changelog": "1.1.2",
     "mocha": "2.3.3",
     "semantic-release": "^4.3.5"
   },
