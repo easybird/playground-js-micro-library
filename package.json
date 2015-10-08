@@ -1,0 +1,41 @@
+{
+  "name": "js-library-tryout",
+  "version": "0.0.0-semantically-released",
+  "description": "Get random Belgian football player names",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easybird/tryouts.git"
+  },
+  "keywords": [
+    "random",
+    "belgian",
+    "football",
+    "player"
+  ],
+  "author": "easybird <easybird85@gmail.com> (http://easybird.be/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easybird/js-library-tryout/issues"
+  },
+  "homepage": "https://github.com/easybird/js-library-tryout#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.3.0",
+    "commitizen": "1.0.5",
+    "cz-conventional-changelog": "1.1.0",
+    "mocha": "2.3.3",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}
