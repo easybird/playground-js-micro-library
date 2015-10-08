@@ -1,7 +1,7 @@
 ## playground-js-micro-library
 
 ## Synopsis
-Tryout to create a micro js library with npm commitizen, semantic-release-cli, 
+Tryout to create a micro js library with npm commitizen, semantic-release-cli, travis.yml
 
 ## Motivation
 Tutorial about commitizen and semantic releases
