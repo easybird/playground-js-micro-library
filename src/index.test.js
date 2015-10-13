@@ -22,8 +22,8 @@ describe('football-player-names', function() {
       expect(footballPlayerNames.all).to.include(randomItem);
     });
     it('should return an array of random items if passed a numer', function () {
-      var randomItems = footballPlayerNames.random(5);
-      expect(randomItems).to.have.length(5);
+      var randomItems = footballPlayerNames.random(6);
+      expect(randomItems).to.have.length(6);
       randomItems.forEach(function (item) {
         expect(footballPlayerNames.all).to.include(item);
       });
